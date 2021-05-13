@@ -1,13 +1,19 @@
-#incuide studio>
-int main()
-{ 
-    /*Héctor Silva Reyes
-        /*
-    float numerodepersonas, numerodealimento, porciones 
-    printf("\n Programa 1");
+
+#include <stdio.h>
+
+int main ()
+{
+   
+    float numerodepersonas, numerodealimentos, porciones;
+    printf("\n Héctor Silva Reyes");
+    printf("\n\n Programa 5");
     printf("\n\n Dame el numero de personas");
-    sacnf("%f", &nimerodepersonas);
-    porciones= numerodepersonas/ numerodealimento
-    printf("\n\n La porcion de cada persona es %f, porciones")
+    scanf("%f", &numerodepersonas);
+    printf("\n\n Dame el numero de alimetos disponible");
+    scanf("%f", &numerodealimentos);
+    porciones= numerodepersonas/numerodealimentos;
+    printf("\n LA PORCION PARA DIVIDIR EQUITATIVAMENTE A CADA PERSONA ES  %f", porciones);
+    
     return 0;
 }
+© 2021 GitHub, In
